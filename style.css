@@ -1,0 +1,39 @@
+img {
+  width: 200px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #5056bf;
+
+  font-family: "Calibri Light", Verdana, Geneva, Tahoma, sans-serif;
+  color: #f2f2f2;
+}
+/* Header */
+header {
+  /* background-color: #030a8c; */
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+h1 span {
+  color: #f2e530;
+}
+/* lomitos-random */
+.lomitos-random {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.img-aleatorias--container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}

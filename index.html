@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lomitos.jpg</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Lomitos<span>.jpg</span></h1>
+    </header>
+
+    <section class="lomitos-random">
+      <p>Selecciona una imagen para guardarla en favoritos:</p>
+      <div
+        id="img-aleatorias--container"
+        class="img-aleatorias--container"
+      ></div>
+      <button id="btn-img-aleatorias">Ver más fotos de lomitos</button>
+    </section>
+
+    <section class="upload-lomito">
+      <h2>Sube la foto de tu lomito:</h2>
+      <form id="upload-form">
+        <input type="file" id="file" name="file" />
+        <button type="button" id="btn-upload-lomito">
+          Subir foto de tu lomito
+        </button>
+      </form>
+    </section>
+
+    <section class="lomitos-favoritos">
+      <div id="img-favoritas--container"></div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
