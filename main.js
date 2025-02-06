@@ -115,3 +115,6 @@ const subirImagenLomito = async () => {
 };
 const btnUploadLomito = document.getElementById("btn-upload-lomito");
 btnUploadLomito.addEventListener("click", () => subirImagenLomito());
+
+
+const btnViewUploadLomito = document.getElementById("btn-view-upload-lomito")
